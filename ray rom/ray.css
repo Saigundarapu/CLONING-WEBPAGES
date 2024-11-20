@@ -1,0 +1,426 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "PT Serif", Georgia, serif;
+
+}
+body{
+    font-family: "PT Serif", Georgia, serif;
+    font-family: proxima-nova;
+}
+nav{
+/* border: 2px solid red; */
+height: 150px;
+width: 1225px;
+display: grid;
+grid-template-columns: 100PX 100PX 100PX  100PX 100PX 100PX 100px;
+
+}
+nav img{
+    height: 6.5em;
+    margin-left: 80%;
+    margin-top: 25%;
+    /* padding-left: 70px;
+    padding-top: 5px; */
+} 
+nav>div{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 100px;
+    font-size: 11px;
+    
+    margin-left: 450%;
+    padding-top: 70px;
+}
+
+nav>div:hover{
+    color: #c2c2c2;;
+}
+nav span:hover{
+    color: black;
+}
+#s1{
+    /* border: 2px solid red; */
+    height: 700px;
+    background-image: url(./image/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg);
+    background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position:center;
+ margin: auto;
+}
+#s1 h1{
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 720px;
+    color: #171717;
+    /* font-size: 40px; */
+    background-color: white;
+    opacity: 0.7;
+    margin-left: 6%;
+    margin-top: 4%;
+    font-weight: 100;
+    align-content: center;
+    padding-left: 5%;
+    letter-spacing: 3px;
+    /* font-family: "PT Serif", Georgia, serif;
+    font-family: "Source Sans Pro", sans-serif; */
+    font-family: futura-pt;
+    font-size: 2em;
+}
+#s1 p{
+    color: #171717;
+    height: 80px;
+    width: 730px;
+    background-color: white;
+    opacity: 0.9;
+    margin-left: 6%;
+    font-size: 1.2em;  
+      font-family: proxima-nova;
+      letter-spacing: 1px;
+    }
+    #s1 i{
+        /* border: 2px solid red; */
+        height: 2.6em;
+        margin-left: 50%;
+        font-size: 60px;
+        color: white ;
+        font-weight:lighter;
+    } 
+    #s1 i:hover{
+         cursor: pointer;
+    }
+    #s2{
+        /* border: 2px solid red; */
+        height: 360px;
+        /* background-color: white; */
+    }
+    #s2 h1{
+        /* border: 2px solid red; */
+        margin-left: 4.1em;
+        margin-top: 8%;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: "Source Sans Pro", sans-serif;
+    font-family: proxima-nova;
+    font-size: 1.6em;
+    color: #16161d;;
+    }
+    #s2 p{
+        /* border: 2px solid red; */
+        margin-left: 7em;
+        line-height: 1.5em;
+        font-size: 15px;
+        color: #363636;
+        font-family: "PT Serif", Georgia, serif;
+        
+    }
+    #s3{
+        /* border: 2px solid red; */
+        height: 700px;
+        background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position:center;
+ margin: auto;
+ background-image: url(./image/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg);
+    }
+    #s3 h1{
+        background-color: white;
+    opacity: 0.7;
+    margin-left: 6%;
+    margin-top: 6%;
+    font-weight: 100;
+    align-content: center;
+    padding-left: 5%;
+    letter-spacing: 0.179487em;
+    color:black;
+    width: 700px;
+    height: 90px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    font-family: proxima-nova;
+    }
+    #s4{
+        /* border: 2px solid red; */
+        height: 350px;
+        /* background-color: white; */
+    }
+    #s4 h3{
+        /* border: 2px solid red; */
+        margin-left: 5.2em;
+        margin-top: 8%;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: "Source Sans Pro", sans-serif;
+    font-family: proxima-nova;
+    font-size: 1.2em;
+    color: black;
+    word-spacing: 2px;
+
+    }
+    #s4 p{
+        /* border: 2px solid red; */
+        margin-left: 7em;
+        line-height: 1.5em;
+        font-size: 15px;
+        color: #363636;
+        font-family: "PT Serif", Georgia, serif;
+        font-family: proxima-nova;
+        word-spacing: 2px;
+        }
+        #s5{
+            height: 700px;
+        background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position:center;
+ margin: auto;
+ background-image: url(./image/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg);
+}
+#s5 h1{
+    height: 70px;
+    width: 270px;
+    background-color: white;
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    font-family: proxima-nova;
+    margin-left: 5%;
+ text-align: center;
+ padding-top: 1.6%;
+ font-weight: 100;
+ letter-spacing: 7px;
+ line-height: 1em;
+ font-weight: 500;
+ color: black;
+ font-size: 35px;
+}
+#s6{
+     /* border: 2px solid red; */
+     height: 300px;
+     /* background-color: white; */
+}
+#s6 h3{
+    /* border: 2px solid red; */
+    margin-left: 5.2em;
+    margin-top: 8%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Source Sans Pro", sans-serif;
+font-family: proxima-nova;
+font-size: 1.2em;
+color: black;
+word-spacing: 2px;
+
+}
+#s6 p{
+    /* border: 2px solid red; */
+    margin-left: 7em;
+    line-height: 1.5em;
+    font-size: 15px;
+    color: #363636;
+    font-family: "PT Serif", Georgia, serif;
+    font-family: proxima-nova;
+    word-spacing: 2px;
+    }
+    #s7{
+        /* border: 2px solid red; */
+            height: 700px;
+        background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position:center;
+ margin: auto;
+ background-image: url(./image/1040.jpeg);
+    }
+    #s7 h1{
+        height: 70px;
+        width: 380px;
+        background-color: white;
+        opacity: 0.7;
+        text-transform: uppercase;
+        font-family: "Source Sans Pro", sans-serif;
+        font-family: proxima-nova;
+        margin-left: 5%;
+     text-align: center;
+     padding-top: 1.6%;
+     font-weight: 100;
+     letter-spacing: 7px;
+     line-height: 1em;
+     font-weight: 500;
+     color: black;
+     font-size: 35px;
+    }
+    
+    #s8 {
+        /* border: 2px solid red; */
+        height: 480px;
+     /* background-color: white; */
+    }
+    #s8 h4{
+        /* border: 2px solid red; */
+        margin-left: 5.2em;
+        /* margin-top: 8%; */
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: "Source Sans Pro", sans-serif;
+    font-family: proxima-nova;
+    font-size: 1.1em;
+    color: black;
+    word-spacing: 2px;
+    
+    }
+    #s8 p{
+        /* border: 2px solid red; */
+        margin-left: 6em;
+        line-height: 1.8em;
+        font-size: 15px;
+        color: #363636;
+        font-family: "PT Serif", Georgia, serif;
+        font-family: proxima-nova;
+        word-spacing: 2px;
+        }
+        #s9{
+             /* border: 2px solid red; */
+             height: 700px;
+             background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center;
+      margin: auto;
+      background-image: url(./image/028.jpeg);
+        }
+        #s9 h1{
+            height: 70px;
+            width: 240px;
+            background-color: white;
+            opacity: 0.7;
+            text-transform: uppercase;
+            font-family: "Source Sans Pro", sans-serif;
+            font-family: proxima-nova;
+            margin-left: 5%;
+         text-align: center;
+         padding-top: 1.6%;
+         font-weight: 100;
+         letter-spacing: 7px;
+         line-height: 1em;
+         font-weight: 500;
+         color: black;
+         font-size: 35px;
+        }
+        #s10{
+           /* border: 2px solid red; */
+        height: 200px;  
+        display: grid;
+        grid-template-columns: 340px 340px 340px;
+       grid-template-rows: 290px 290px 290px;
+        }
+        #s10 div{
+            /* border: 2px solid red; */
+            height: 100px;
+            width: 100px;
+            margin-left: 36%;
+            color: #363636;
+        
+        }
+        #s10 div>img{
+            width: 300px;
+            height: 200px;
+        }
+        #s11{
+            display: grid;
+            grid-template-columns: 340px 340px 340px;
+           grid-template-rows: 290px 290px 290px;
+        }
+        #s11 div{
+            /* border: 2px solid red; */
+            height: 20px;
+            width: 300px;
+            margin-left: 36%;
+            margin-top: 2em;
+            color: #363636;
+            /* font-size: 10%; */
+            font-size: 0.76em;
+         }
+         #s12{
+            /* border: 2px solid red; */
+            height: 160px;
+            /* width: 500px; */
+            /* margin-top: -8%; */
+            background-color: #16161d;
+            display: grid;
+            grid-template-columns: 3em 3em 3em 3em 3em;
+         }
+          #s12 div{
+            /* border: 2px solid red; */
+            color: black;
+            height: 2.3em;
+            width: 2.3em;
+            border-radius: 5em;
+            font-size: 1em;
+            background-color: white;
+             margin-top: 5em;
+            margin-left: 5em; 
+         } 
+         #s12 i{
+            padding: 0.6em;
+         }
+         #s12 div:hover{
+            background-color: grey;
+            border-radius: 5em;
+         }
+         /* #s12 svg{
+            
+         } */
+          #a13{
+            /* border: 2px solid red; */
+            display: grid;
+            grid-template-columns: 320px 320px 320px;
+          }
+          #a13 div{
+            /* border: 2px solid red; */
+            height: 30px;
+            width: 280px;
+            font-size: small;
+            margin-left: 30em;
+            margin-top: -5.2em;
+            color: white;
+          }
+          #a13{
+            
+          }
+          #a13 div+div+div{
+            /* padding-left: -15em; */
+            margin-left: 18em;
+          }
+          #a13 div+div+div+div>i{
+            /* border: 2px solid red; */
+            font-size: 15px;
+            margin-left: 25em;
+            margin-top: -8em;
+            color: black;
+            width: 2.5em;
+            position: absolute;
+            border-radius: 4em;
+            background-color: white;
+            padding-left:  0.8em;
+            padding-top: 0.5em;
+            height: 50px;
+            color: gray;
+            width: 50px;
+          }
+          #s14{
+            border: 2px solid red;
+height: 100px;
+width: 100px;
+float: right;
+          }
+          #s14 div>i{
+            border: 2px solid red;
+            /* float: right; */
+            position: fi
+            margin-left: 60px;
+          }
